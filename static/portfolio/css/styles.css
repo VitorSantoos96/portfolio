@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #31363F;
+    color: #EEEEEE;
+}
+
+
+.navigation-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10%;
+    gap: 35px;
+    background-color: #222831;
+    box-shadow: 1px 1px 4px rgb(37, 211, 102);
+    height: 56px;
+    font-size: 32px;
+}
+
+.navigation-header a {
+    text-decoration: none;
+    color: rgb(37, 211, 102);
+    transition: 1s;
+    font-weight: bold;
+}
+.navigation-header a:hover{
+    color: #EEEEEE;
+}
+
+.text-content {
+    margin-left: 72px;
+    margin-top: 45px;
+    color: #EEEEEE;
+}
+
+.text-content h1 {
+    font-size: 45px;
+}
+
+.text-content h2 {
+    font-size: 50px;
+    color: rgb(37, 211, 102);
+    animation: alternate;
+}
+
+.perguntas-respostas {
+    margin-top: 54px;
+    margin-left: 72px;
+}
+
+.perguntas-respostas details summary {
+    color: rgb(37, 211, 102);
+    font-weight: 600;
+    width: 520px;
+    background-color: #222831;
+    font-size: 13.5px;
+    box-shadow: 1px 1px 4px rgb(37, 211, 102);
+    padding: 28px;
+    border-bottom: 2px solid #31363F;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.perguntas-respostas details summary:hover {
+    color: #EEEEEE;
+}
+
+.perguntas-respostas p {
+    font-size: 14px;
+    background-color: #222831;
+    box-shadow: 1px 1px 4px rgb(37, 211, 102);
+    color: #EEEEEE;
+    padding: 2%;
+    border: 2px solid #31363F;
+    width: 800px;
+}
+
+
+.discription-footer {
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10%;
+    background-color: #222831;
+    box-shadow: 1px 1px 4px rgb(37, 211, 102);
+    height: 56px;
+    font-size: 9px;
+    color: rgb(37, 211, 102);
+}
+
+.skills-content p{
+    font-size: 14px;
+    background-color: #222831;
+    box-shadow: 1px 1px 4px rgb(37, 211, 102);
+    color: #EEEEEE;
+    padding: 2%;
+    border: 2px solid #31363F;
+    width: 800px;
+    gap: 10px;
+}
+
+
+
+.skills-content i{
+    font-size: 32px;
+}
+
+.fa-git {
+    color: red;
+}
+
+.fa-python {
+    color: #FFD43B;
+}
+
+.fa-database {
+    color: #c86514;
+}
+
+.fa-html5 {
+    color: #ff6347;
+}
+
+.fa-css3 {
+    color: #0e76a8;
+}
+
+
+
+.discription-footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(37, 211, 102);
+    cursor: pointer;
+    transition: 1s;
+    font-size: 19px;
+}
+
+.discription-footer a:hover {
+    color: #EEEEEE;
+}
